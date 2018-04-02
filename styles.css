@@ -1,0 +1,42 @@
+html{padding:0;}
+body{padding:0;margin:0}
+.header{
+    height:60px;
+    padding:20px;
+    background-color:#550000;
+    line-height:60px;
+}
+.header h1{
+    float:left;
+    margin:0;
+    color:#fff;
+}
+.header ul{
+    float:right;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.header ul li{
+    float:left;
+    margin-left:20px;
+}
+.header ul li a{
+    text-decoration:none;
+    color:#fff;
+}
+.main .content{
+    width:70%;
+    float:left;
+    background-color:#f2f2f2;
+    min-height:500px;
+}
+.main .sidebar{
+    width:30%;
+    float:right;
+    background-color:#666;
+    min-height:500px
+}
+.main p{
+    margin:20px;
+}
